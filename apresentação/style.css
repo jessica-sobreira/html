@@ -1,0 +1,57 @@
+:root {
+    --fonte-titulo: 'Montserrat', sans-serif;
+    --fonte-texto: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: var(--fonte-texto);
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.imagem {
+    border-radius: 12px;
+}
+
+.conteudo__titulo {
+    font-family: var(--fonte-titulo);
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 2em;
+
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 15%;
+    gap: 50px;
+
+}
+
+.conteudo__texto {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.conteudo__foto {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background-color: black;
+    color: white;
+
+}
